@@ -1,0 +1,325 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.product-card-iphone{
+    width: 249px;
+    height: 790px;
+    position: relative;
+}
+
+.icon-social-networks{
+    float: left;
+}
+
+
+.btn-youtube{
+    background: url(../img/Vector.svg) no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 40px;
+    display: block;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.btn-overview-360{
+    background: url(../img/use.svg) no-repeat;
+    background-size: contain;
+    width: 22.13px;
+    height: 19.45px;
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.img-iphone{
+    margin-top: 55px;
+    background: url(../img/iphone.svg) no-repeat;
+    width: 217px;
+    height: 217px;
+}
+
+.color-black{
+    width: 18px;
+    height: 18px;
+    background: #454545;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    margin-top: -9px;
+    margin-left: 3px;
+    
+}
+
+.color-pink{
+    width: 18px;
+    height: 18px;
+    background: #FFACA7;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    margin-top: -17px;
+    margin-left: 30px;
+}
+
+.color-black:hover{
+    border: 2px solid #7EB105;
+}
+
+.color-pink:hover{
+    border: 2px solid #7EB105;
+}
+
+.icon-star li{
+    display: inline-block;
+}
+
+.fa-star{
+    color: #F6731C;
+    font-size: 12px;
+}
+
+.color-star{
+    color: #DEDEDE;
+}
+
+.list-star-number{
+    color: #999;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: bold;
+    
+}
+
+.list-comment li{
+    display: inline-block;
+}
+
+.list-comment{
+    margin-top: -55px;
+    margin-left: 135px;
+}
+
+.fa-comment{
+    color: #999;
+}
+
+.list-comment a{
+    color: #7EB105;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.list-comment a:hover{
+    color: #7EB105;
+    text-decoration: none;
+}
+
+.product-code{
+    font-family: Arial;
+    font-size: 10px;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+
+.goods-in-stock{
+    color: #7EB105;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: -6px;
+    display: none;
+}
+
+.quantity-is-limited{
+    color: #F6731C;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: -5px;
+}
+
+.about-iphone{
+    color: #212121;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.telefon-memory li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.telefon-memory{
+    display: none;
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.color-block-16 {
+    color: #212121;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: normal;
+    background:  #e6ffe6;
+}
+
+
+.color-block-32 {
+    color: #7EB105;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: normal;
+    border-bottom: 1px dashed #7EB105;;
+}
+
+.color-block-32:hover{
+    color: #7EB105;
+    text-decoration: none;
+}
+
+.color-block-16:hover{
+    color: #212121;
+    text-decoration: none;
+}
+
+.program-exchange{
+    color: #F6731C;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.block-stock{
+    margin-top: -12px;
+}
+
+.crossed-out-price{
+    color: #999;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+.actual-price{
+    color: #F6731C;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.economical-price{
+    color: #7EB105;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.icon-market li{
+    display: inline-block;
+    margin: 0 30px 0px 20px;
+    font-size: 20px;
+}
+
+.icon-market a{
+    color: #999;
+}
+
+.icon-market a:hover{
+    color: #7EB105;
+}
+
+.fa-shopping-cart{
+    color: #7EB105;
+}
+
+.invisible-block{
+    position: relative;
+    display: none;
+}
+
+.img-sale{
+    margin-top: 10px;
+}
+
+.invisible-block-sale{
+    color: #212121;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.invisible-block-sale-the-first-purchase{
+    color: #F6731C;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+    left: 49px;
+    top: 35px;
+}
+
+.characteristics-block{
+    margin-top: 20px;
+}
+
+.circle-mini{
+    font-size: 8px;
+}
+
+.characteristics-block li{
+    color: #999;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.product-card-iphone:hover {
+    width: 260px;
+    border: 1px solid #7EB105;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 0 0 0 15px;
+}
+
+
+                          /************* Невидимый блок ***********/
+
+
+
+.product-card-iphone:hover .invisible-block{
+    display: block;
+}
+
+.product-card-iphone:hover .goods-in-stock{
+    display: block;
+}
+
+.product-card-iphone:hover .quantity-is-limited{
+    display: none;
+}
+
+.product-card-iphone:hover .program-exchange{
+    display: none;
+}
+
+.product-card-iphone:hover .telefon-memory{
+    display: block;
+}
+
+
+
+
